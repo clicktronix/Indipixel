@@ -18,6 +18,7 @@ header .upper_header {
 }
 
 header .lower_header {
+    width: 100%;
     height: 80px;
     color: white;
     background-color: #e94643;
@@ -47,12 +48,16 @@ header .lower_header .contact a:hover {
 }
 
 #home {
-    margin: 0;
     background-color: #ef5350;
     height: 582px;
     color: #ffffff;
+    /*-webkit-column-count:2;*/
+    /*-moz-column-count:2;*/
+    /*column-count:2;*/
 }
+
 #home .tagline h1 {
+    margin: 0;
     text-transform: uppercase;
     text-align: right;
     line-height: 1.5;
@@ -64,6 +69,7 @@ header .lower_header .contact a:hover {
 }
 
 #home .knowmore {
+    color: #ffffff;
     float: right;
     margin-right: 25px;
     margin-top: 50px;
@@ -78,6 +84,57 @@ header .lower_header .contact a:hover {
 #query {
     background-color: #ffffff;
     height: 400px;
+}
+
+#query h2 {
+    margin: 0;
+    color: #ff8a80;
+}
+
+#query input {
+    border: 2px solid #e3f2fd;
+    width: 15%;
+    min-width: 200px;
+    height: 25px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+#query select {
+    border: 2px solid #e3f2fd;
+    width: 18%;
+    min-width: 200px;
+    height: 38px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+#query textarea {
+    border: 2px solid #e3f2fd;
+    width: 38%;
+    min-width: 420px;
+    height: 100px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    resize: none;
+}
+
+#query button {
+    float: left;
+    margin-left: 400px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 17px 34px;
+    border-radius: 8px;
+    background: #ef5350;
+    border: none;
+    color: #fff;
 }
 
 footer {

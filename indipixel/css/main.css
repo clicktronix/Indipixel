@@ -1,22 +1,28 @@
 @charset "UTF-8";
 
 .bold, header .lower_header .logo {
-    font-family: MontserratBold; }
+    font-family: MontserratBold;
+}
 
 .gotham, header .lower_header .contact {
-    font-family: GothamBookRegular; }
+    font-family: GothamBookRegular;
+}
 
 .light, #query h2, footer div {
-    font-family: "MontserratLight", sans-serif; }
+    font-family: "MontserratLight", sans-serif;
+}
 
 .regular, #home h1, #home .knowmore button {
-    font-family: "MontserratRegular"; }
+    font-family: "MontserratRegular";
+}
 
 .semibold, #query button {
-    font-family: "MontserratSemiBold", sans-serif; }
+    font-family: "MontserratSemiBold", sans-serif;
+}
 
 .ultral, #home p {
-    font-family: "MontserratUltraLight",sans-serif; }
+    font-family: "MontserratUltraLight",sans-serif;
+}
 
 html {
     height: auto;
@@ -82,7 +88,6 @@ header .lower_header .contact a:hover {
 }
 
 #home img {
-    position: absolute;
     float: left;
     max-width: 100%;
     height: auto;
@@ -107,7 +112,6 @@ header .lower_header .contact a:hover {
 }
 
 #home .knowmore {
-    margin-left: 0;
     float: right;
     color: #ffffff;
     margin-top: 60px;
@@ -125,25 +129,37 @@ header .lower_header .contact a:hover {
 }
 
 #query h2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
     margin: 0;
     color: #ff8a80;
+}
+
+#query input,
+#query select,
+#query textarea {
+    font-family: "MontserratLight";
+    color: #636363;
+    font-size: 20px;
+    padding: 3px 25px;
+    line-height: 1.2;
 }
 
 #query input {
     display: inline-block;
     border: 2px solid #e3f2fd;
-    width: 10%;
-    height: 35px;
-    border-radius: 4px;
+    width: 30%;
+    height: 47px;
+    border-radius: 5px;
     margin-right: 1%;
     margin-bottom: 1%;
 }
 
-#query .design {
+#query select {
+    display: inline-block;
     border: 2px solid #e3f2fd;
-    width: 16%;
-    height: 48px;
-    padding: 5px 10px;
+    width: 37%;
+    height: 55px;
     border-radius: 4px;
     margin-right: 1%;
     margin-bottom: 1%;
@@ -151,20 +167,17 @@ header .lower_header .contact a:hover {
 
 #query textarea {
     border: 2px solid #e3f2fd;
-    width: 31%;
+    width: 68.5%;
     height: 100px;
-    padding: 5px 10px;
     border-radius: 4px;
     margin-bottom: 15px;
     resize: none;
 }
 
 #query button {
-    margin: 0;
-    float: right;
     text-transform: uppercase;
     font-size: 20px;
-    padding: 17px 34px;
+    padding: 12px 37px;
     border-radius: 8px;
     background: #ef5350;
     border: none;
@@ -173,7 +186,14 @@ header .lower_header .contact a:hover {
 
 footer {
     background-color: #fefcf2;
-    height: 65px;
-    vertical-align: middle;
+    max-height: 70px;
 }
 
+footer div {
+    font-size: 16px;
+    color: #636363;
+}
+
+footer .email::before {
+    position: absolute;
+}

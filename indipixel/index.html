@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Indipixel</title>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
 <header id="header">
@@ -22,19 +24,24 @@
 <div class="content">
     <section id="home">
         <div class="container">
-            <div class="tagline">
+            <div>
+                <img src="img/Phone.png" alt="Фото в телефоне">
+            </div>
+            <div class="tagline layout-column">
                 <h1>We design and build<br> beautiful web & mobile apps</h1>
                 <p>You can design and create, and build the most wonderful
                     place in the world. But it takes people to make the dream
                     a reality. - Walt Disney
                 </p>
+            </div>
+            <div>
                 <input type="button" href="#" class="knowmore" value="Know more">
             </div>
         </div>
     </section>
     <section id="query">
-        <div class="container">
-            <h2>Lets talk</h2>
+        <div class="container layout-column">
+            <h2 class=>Lets talk</h2>
             <form>
                 <div>
                     <label>
@@ -55,12 +62,9 @@
                     </label>
                 </div>
                 <div>
-                    <label>
-                        <textarea class="query" rows="3">
-                        Type your query here</textarea>
-                    </label>
+                    <textarea name="client_query" id="client_query" cols="56" rows="3">Type your query here</textarea>
                 </div>
-                <div class="row">
+                <div>
                     <button type=submit>Send</button>
                 </div>
             </form>
@@ -72,7 +76,7 @@
         <div class="copyright">
             <span>&copy 2015 indipixel design</span>
         </div>
-        <div class="email">
+        <div class="email layout-column">
             <span>contact@youremail.com</span>
         </div>
     </div>

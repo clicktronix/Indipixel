@@ -1,15 +1,40 @@
+@charset "UTF-8";
+
+.bold, header .lower_header .logo {
+    font-family: MontserratBold; }
+
+.gotham, header .lower_header .contact {
+    font-family: GothamBookRegular; }
+
+.light, #query h2, footer div {
+    font-family: "MontserratLight", sans-serif; }
+
+.regular, #home h1, #home .knowmore button {
+    font-family: "MontserratRegular"; }
+
+.semibold, #query button {
+    font-family: "MontserratSemiBold", sans-serif; }
+
+.ultral, #home p {
+    font-family: "MontserratUltraLight",sans-serif; }
+
 html {
-    height: 100%;
+    height: auto;
 }
 
 body {
-    height: 100%;
+    width: 100%;
+    height: auto;
     margin: 0;
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.layout-column {
+    margin-left: 50%;
 }
 
 header .upper_header {
@@ -27,12 +52,14 @@ header .lower_header {
 header .lower_header .logo {
     float: left;
     padding-top: 20px;
+    padding-left: 140px;
     font-size: 30px;
 }
 
 header .lower_header .contact {
+    font-size: 16px;
     padding-top: 30px;
-    padding-right: 10px;
+    padding-right: 15px;
     text-transform: uppercase;
     float: right;
 }
@@ -49,30 +76,41 @@ header .lower_header .contact a:hover {
 
 #home {
     background-color: #ef5350;
+    padding-right: 76px;
     height: 582px;
     color: #ffffff;
-    /*-webkit-column-count:2;*/
-    /*-moz-column-count:2;*/
-    /*column-count:2;*/
+}
+
+#home img {
+    position: absolute;
+    float: left;
+    max-width: 100%;
+    height: auto;
+    margin-left: 110px;
+    margin-right: 130px;
+    margin-top: 63px;
 }
 
 #home .tagline h1 {
     margin: 0;
+    padding-top: 190px;
     text-transform: uppercase;
-    text-align: right;
-    line-height: 1.5;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-size: 30px;
 }
 
 #home .tagline p {
-    text-align: right;
+    font-size: 18px;
     line-height: 1.2;
+    letter-spacing: 1px;
 }
 
 #home .knowmore {
-    color: #ffffff;
+    margin-left: 0;
     float: right;
-    margin-right: 25px;
-    margin-top: 50px;
+    color: #ffffff;
+    margin-top: 60px;
     text-transform: uppercase;
     font-size: 18px;
     padding: 15px 20px;
@@ -92,21 +130,19 @@ header .lower_header .contact a:hover {
 }
 
 #query input {
+    display: inline-block;
     border: 2px solid #e3f2fd;
-    width: 15%;
-    min-width: 200px;
-    height: 25px;
-    padding: 5px 10px;
+    width: 10%;
+    height: 35px;
     border-radius: 4px;
     margin-right: 1%;
     margin-bottom: 1%;
 }
 
-#query select {
+#query .design {
     border: 2px solid #e3f2fd;
-    width: 18%;
-    min-width: 200px;
-    height: 38px;
+    width: 16%;
+    height: 48px;
     padding: 5px 10px;
     border-radius: 4px;
     margin-right: 1%;
@@ -115,8 +151,7 @@ header .lower_header .contact a:hover {
 
 #query textarea {
     border: 2px solid #e3f2fd;
-    width: 38%;
-    min-width: 420px;
+    width: 31%;
     height: 100px;
     padding: 5px 10px;
     border-radius: 4px;
@@ -125,9 +160,8 @@ header .lower_header .contact a:hover {
 }
 
 #query button {
-    float: left;
-    margin-left: 400px;
-    margin-top: 0;
+    margin: 0;
+    float: right;
     text-transform: uppercase;
     font-size: 20px;
     padding: 17px 34px;
@@ -140,5 +174,6 @@ header .lower_header .contact a:hover {
 footer {
     background-color: #fefcf2;
     height: 65px;
+    vertical-align: middle;
 }
 

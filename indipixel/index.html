@@ -24,9 +24,15 @@
 <div class="content">
     <section id="home">
         <div class="container">
+            <div class="line-1">
+                <svg>
+                    <line x1="40" x2="120" y1="20" y2="20" stroke="black" stroke-width="83" stroke-linecap="butt"/>
+                </svg>
+            </div>
             <div>
                 <img src="img/Phone.png" alt="Фото в телефоне">
             </div>
+
             <div class="tagline layout-column">
                 <h1>We design and build<br> beautiful web & mobile apps</h1>
                 <p>You can design and create, and build the most wonderful
@@ -49,19 +55,18 @@
                 </div>
                 <div>
                     <input type="text" value="Email Address">
-                    <input type="text" value="App design">
-                    <!--<select class="design">-->
-                        <!--<option value="1">App design</option>-->
-                    <!--</select>-->
+                    <!--<input type="text" value="App design">-->
+                    <select class="design">
+                        <option value="1">App design</option>
+                    </select>
                 </div>
                 <div>
                     <textarea rows="3">Type your query here</textarea>
                 </div>
-                <div>
-                    <button type=submit>Send</button>
-                    <!--<input type="button" href="#" class="button" value="Send">-->
-                </div>
             </form>
+        </div>
+        <div class="container">
+            <button type=submit>Send</button>
         </div>
     </section>
 </div>
@@ -70,8 +75,9 @@
         <div class="copyright">
             <p>&copy 2015 indipixel design</p>
         </div>
+        <!--<img src="img/IconMail.png" class="mail layout-column">-->
         <div class="email layout-column">
-            <p><img src="img/IconMail.png">&nbsp;contact@youremail.com</p>
+            <p>&nbsp;contact@youremail.com</p>
         </div>
     </div>
 </footer>

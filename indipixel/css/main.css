@@ -1,27 +1,27 @@
 @charset "UTF-8";
 
 .bold, header .lower_header .logo {
-    font-family: MontserratBold;
+    font-family: MontserratBold, serif;
 }
 
 .gotham, header .lower_header .contact {
-    font-family: GothamBookRegular;
+    font-family: GothamBookRegular, serif;
 }
 
 .light, #query h2, footer div {
-    font-family: "MontserratLight", sans-serif;
+    font-family: "MontserratLight", serif;
 }
 
 .regular, #home h1, #home .knowmore button {
-    font-family: "MontserratRegular";
+    font-family: "MontserratRegular", serif;
 }
 
 .semibold, #query button {
-    font-family: "MontserratSemiBold", sans-serif;
+    font-family: "MontserratSemiBold", serif;
 }
 
 .ultral, #home p {
-    font-family: "MontserratUltraLight",sans-serif;
+    font-family: "MontserratUltraLight", serif;
 }
 
 html {
@@ -123,12 +123,18 @@ header .lower_header .contact a:hover {
     border: none;
 }
 
+#home .line-1 {
+
+    position: absolute;
+}
+
 #query {
     background-color: #ffffff;
     height: 400px;
 }
 
 #query h2 {
+    padding-left: 25px;
     padding-top: 30px;
     padding-bottom: 15px;
     margin: 0;
@@ -138,62 +144,59 @@ header .lower_header .contact a:hover {
 #query input,
 #query select,
 #query textarea {
-    font-family: "MontserratLight";
+    display: inline-block;
+    font-family: "MontserratLight", serif;
     color: #636363;
     font-size: 20px;
     padding: 3px 25px;
     line-height: 1.2;
-}
-
-#query input {
-    display: inline-block;
-    border: 2px solid #e3f2fd;
-    width: 30%;
-    height: 47px;
     border-radius: 5px;
     margin-right: 1%;
     margin-bottom: 1%;
+    border: 2px solid #e3f2fd;
+}
+
+#query input {
+    width: 30%;
+    height: 47px;
 }
 
 #query select {
-    display: inline-block;
-    border: 2px solid #e3f2fd;
     width: 37%;
     height: 55px;
-    border-radius: 4px;
-    margin-right: 1%;
-    margin-bottom: 1%;
 }
 
 #query textarea {
-    border: 2px solid #e3f2fd;
     width: 68.5%;
     height: 100px;
-    border-radius: 4px;
-    margin-bottom: 15px;
     resize: none;
 }
 
 #query button {
+    float: right;
     text-transform: uppercase;
     font-size: 20px;
     padding: 12px 37px;
     border-radius: 8px;
     background: #ef5350;
     border: none;
-    color: #fff;
+    color: #ffffff;
 }
 
 footer {
+    vertical-align: middle;
     background-color: #fefcf2;
     max-height: 70px;
-}
-
-footer div {
     font-size: 16px;
     color: #636363;
 }
 
-footer .email::before {
-    position: absolute;
+footer .copyright {
+
 }
+
+footer .email {
+
+}
+
+

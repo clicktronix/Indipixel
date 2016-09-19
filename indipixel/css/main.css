@@ -123,10 +123,15 @@ header .lower_header .contact a:hover {
     border: none;
 }
 
-#home .line-1 {
-
-    position: absolute;
-}
+/*#home .line-1 {*/
+/*width: 150px;*/
+/*height: 100px;*/
+/*-webkit-transform: skew(20deg);*/
+/*-moz-transform: skew(20deg);*/
+/*-o-transform: skew(20deg);*/
+/*background: red;*/
+/*position: absolute;*/
+/*}*/
 
 #query {
     background-color: #ffffff;
@@ -184,19 +189,170 @@ header .lower_header .contact a:hover {
 }
 
 footer {
-    vertical-align: middle;
     background-color: #fefcf2;
+    height: 70px;
     max-height: 70px;
     font-size: 16px;
     color: #636363;
 }
 
 footer .copyright {
-
+    position: absolute;
+    padding-top: 25px;
 }
 
 footer .email {
-
+    position: absolute;
+    margin-left: 40%;
+    padding-top: 25px;
 }
 
+footer .mail-logo {
+    position: absolute;
+    margin-left: -15%;
+}
+
+@media screen and (min-width: 761px) and (max-width: 1100px) {
+    .layout-column {
+        margin: auto;
+    }
+
+    #home {
+        padding-left: 150px;
+    }
+
+    #query {
+        padding-left: 150px;
+    }
+
+    #query .sender {
+        padding-right: 50px;
+    }
+
+    #home img {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    footer {
+        padding-left: 150px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 760px) {
+    .layout-column {
+        margin: auto;
+    }
+
+    header .upper_header {
+        height: 10px;
+    }
+
+    header .lower_header {
+        height: 55px;
+    }
+
+    header .lower_header .logo {
+        padding: 15px;
+        font-size: 23px;
+    }
+
+    header .lower_header .logo span {
+        padding-left: 15px;
+    }
+
+    header .lower_header .contact {
+        font-size: 11px;
+    }
+
+    #home {
+        height: 280px;
+    }
+
+    #home img {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    #home .tagline h1 {
+        font-size: 20px;
+        margin: 0;
+        padding: 10px;
+    }
+
+    #home .tagline p {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+    #home .knowmore {
+        margin-top: 15px;
+        font-size: 11px;
+        padding: 11px 15px;
+    }
+
+    #query {
+        height: 500px;
+        margin-left: 30px;
+    }
+    #query h2 {
+        font-size: 18px;
+    }
+    #query input {
+        min-width: 300px;
+        display: block;
+        font-size: 12px;
+        height: 30px;
+        padding: 4px;
+    }
+
+    #query select {
+        min-width: 310px;
+        height: 40px;
+        display: block;
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    #query textarea {
+        min-width: 300px;
+        margin-bottom: 10px;
+        display: block;
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    #query button {
+        font-size: 12px;
+        padding: 12px 27px;
+    }
+    #query .sender {
+        padding-right: 30px;
+    }
+
+    footer {
+        position: relative;
+        max-height: 50px;
+        font-size: 11px;
+        color: #636363;
+    }
+
+    footer .copyright {
+        padding-left: 15px;
+        float: left;
+        position: absolute;
+    }
+
+    footer .email {
+        padding-left: 45px;
+        float: left;
+        position: absolute;
+    }
+
+    footer .mail-logo {
+        width: 20px;
+        height: auto;
+        position: absolute;
+    }
+}
 

@@ -18,7 +18,6 @@
          url('fonts/MontserratBold.svg#MontserratBold') format('svg');
 }
 
-
 @font-face {
     font-family: 'MontserratLight';
     src: url('fonts/MontserratLight.eot');
@@ -28,7 +27,6 @@
          url('fonts/MontserratLight.ttf') format('truetype'),
          url('fonts/MontserratLight.svg#MontserratLight') format('svg');
 }
-
 
 @font-face {
     font-family: 'MontserratRegular';
@@ -40,7 +38,6 @@
          url('fonts/MontserratRegular.svg#MontserratRegular') format('svg');
 }
 
-
 @font-face {
     font-family: 'MontserratSemiBold';
     src: url('fonts/MontserratSemiBold.eot');
@@ -50,7 +47,6 @@
          url('fonts/MontserratSemiBold.ttf') format('truetype'),
          url('fonts/MontserratSemiBold.svg#MontserratSemiBold') format('svg');
 }
-
 
 @font-face {
     font-family: 'MontserratUltraLight';

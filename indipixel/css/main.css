@@ -46,6 +46,7 @@ body {
 header .upper_header {
     background-color: #04e4a2;
     height: 20px;
+    z-index: 1;
 }
 
 header .lower_header {
@@ -87,13 +88,47 @@ header .lower_header .contact a:hover {
     color: #ffffff;
 }
 
+#home .lines {
+
+}
+
+#home .line-1 {
+    position: absolute;
+    background-color: #04e4a2;
+    width: 1500px;
+    height: 80px;
+    /*top: 301px;*/
+    /*left: -680px;*/
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+#home .line-2 {
+    position: absolute;
+    background-color: #69f0ae;
+    width: 1500px;
+    height: 80px;
+    top: 381px;
+    left: -680px;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
 #home img {
+    position: relative;
     float: left;
     max-width: 100%;
     height: auto;
     margin-left: 110px;
     margin-right: 130px;
     margin-top: 63px;
+    z-index: 1;
 }
 
 #home .tagline h1 {
@@ -122,16 +157,6 @@ header .lower_header .contact a:hover {
     background: #04e4a2;
     border: none;
 }
-
-/*#home .line-1 {*/
-/*width: 150px;*/
-/*height: 100px;*/
-/*-webkit-transform: skew(20deg);*/
-/*-moz-transform: skew(20deg);*/
-/*-o-transform: skew(20deg);*/
-/*background: red;*/
-/*position: absolute;*/
-/*}*/
 
 #query {
     background-color: #ffffff;
@@ -220,6 +245,18 @@ footer .mail-logo {
     #home {
         padding-left: 150px;
     }
+    #home .line-1 {
+        display: none;
+    }
+
+    #home .line-2 {
+        display: none;
+    }
+
+    #home img {
+        position: absolute;
+        visibility: hidden;
+    }
 
     #query {
         padding-left: 150px;
@@ -227,11 +264,6 @@ footer .mail-logo {
 
     #query .sender {
         padding-right: 50px;
-    }
-
-    #home img {
-        position: absolute;
-        visibility: hidden;
     }
 
     footer {

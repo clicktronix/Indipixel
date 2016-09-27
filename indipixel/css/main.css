@@ -214,6 +214,7 @@ textarea {
 
 select {
     width: 40.7%;
+    min-width: 245px;
     height: auto;
     box-sizing: content-box;
 }
@@ -242,6 +243,7 @@ textarea {
 .sender {
     padding-left: 78%;
     margin-bottom: 5%;
+    /*align-self: flex-end;*/
 }
 
 button {
@@ -278,13 +280,27 @@ footer .email {
 }
 
 @media screen and (min-width: 761px) and (max-width: 1100px) {
-    .layout-column {
-        margin: auto;
+    .container {
+        width: auto;
+        margin: 0 auto;
     }
 
     #home {
-        padding-left: 150px;
+        padding-left: 100px;
     }
+
+    .block_description {
+        width: 100%;
+    }
+
+    .tagline h1 {
+        padding-top: 15%;
+    }
+
+    .know_more_button {
+        margin-bottom: 5%;
+    }
+
     #home .line-1 {
         display: none;
     }
@@ -294,16 +310,42 @@ footer .email {
     }
 
     #home img {
-        position: absolute;
-        visibility: hidden;
+        display: none;
     }
 
     #query {
-        padding-left: 150px;
+        padding-left: 100px;
     }
 
-    #query .sender {
-        padding-right: 50px;
+    #query .clearfix {
+        display: none;
+    }
+
+    #query input {
+        min-width: 300px;
+        margin-right: 2%;
+    }
+
+    select {
+        min-width: 300px;
+        margin-right: 2%;
+    }
+
+    textarea {
+        min-width: 300px;
+    }
+
+    .block_form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .block_form_input {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     footer {
@@ -312,56 +354,58 @@ footer .email {
 }
 
 @media screen and (min-width: 320px) and (max-width: 760px) {
-    .layout-column {
-        margin: auto;
+    .container {
+        width: auto;
+        margin: 0 auto;
     }
 
-    header .lower_header {
-        border-top: 10px;
-        height: 55px;
+    .block_description {
+        width: 100%;
     }
 
-    header .lower_header .logo {
+    header .logo {
         padding: 15px;
         font-size: 23px;
     }
 
-    header .lower_header .logo span {
+    header .logo span {
         padding-left: 15px;
     }
 
-    header .lower_header .contact {
+    header .contact {
         font-size: 11px;
     }
 
-    #home {
-        height: 280px;
-    }
-
-    #home img {
+    img {
         display: none;
     }
 
-    #home .tagline h1 {
+    .tagline h1 {
         font-size: 20px;
         margin: 0;
         padding: 10px;
     }
 
-    #home .tagline p {
+    .tagline p {
         font-size: 12px;
         padding-left: 10px;
     }
 
-    #home .knowmore {
+    .know_more_button {
         margin-top: 15px;
         font-size: 11px;
         padding: 11px 15px;
+        margin-bottom: 5%;
     }
 
-    #query {
-        height: 500px;
-        margin-left: 30px;
+    .block_form {
+        padding-right: 5px;
+        padding-left: 5px;
+        width: 100%;
+    }
+
+    .block_form_input {
+        justify-content: center;
     }
 
     #query h2 {
@@ -374,34 +418,34 @@ footer .email {
         font-size: 12px;
         height: 30px;
         padding: 4px;
+        margin-right: 1%;
     }
 
-    #query select {
-        min-width: 310px;
-        height: 40px;
+    select {
+        min-width: 300px;
+        height: 30px;
         display: block;
         font-size: 12px;
         padding: 4px;
+        margin-right: 1%;
     }
 
-    #query textarea {
+    textarea {
         min-width: 300px;
         margin-bottom: 10px;
         display: block;
         font-size: 12px;
         padding: 4px;
+        margin-right: 2%;
+        margin-left: 2%;
     }
 
     #query button {
         font-size: 12px;
         padding: 12px 27px;
     }
-    #query .sender {
-        padding-right: 30px;
-    }
 
     footer {
-        position: relative;
         max-height: 50px;
         font-size: 11px;
         color: #636363;
@@ -409,20 +453,15 @@ footer .email {
 
     footer .copyright {
         padding-left: 15px;
-        float: left;
-        position: absolute;
     }
 
     footer .email {
-        padding-left: 45px;
-        float: left;
-        position: absolute;
+        width: 40%;
     }
 
     footer .mail-logo {
         width: 20px;
         height: auto;
-        position: absolute;
     }
 }
 

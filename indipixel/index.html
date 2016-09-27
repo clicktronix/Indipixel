@@ -8,16 +8,13 @@
     <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
-<header id="header">
-    <div class="upper_header"></div>
-    <div class="lower_header">
-        <div class="container">
-            <div class="logo">
-                <span>indipixel</span>
-            </div>
-            <div class="contact">
-                <a href="#">Contact us</a>
-            </div>
+<header>
+    <div class="container">
+        <div class="logo">
+            <span>indipixel</span>
+        </div>
+        <div class="contact">
+            <a href="#">Contact us</a>
         </div>
     </div>
 </header>
@@ -31,49 +28,55 @@
             <div>
                 <img src="img/Phone.png" alt="Фото в телефоне">
             </div>
-
-            <div class="tagline layout-column">
-                <h1>We design and build<br> beautiful web & mobile apps</h1>
-                <p>You can design and create, and build the most wonderful
-                    place in the world. But it takes people to make the dream
-                    a reality. - Walt Disney
-                </p>
-            </div>
-            <div>
-                <input type="button" href="#" class="knowmore" value="Know more">
+            <div class="block_description">
+                <div class="tagline">
+                    <h1>We design and build<br> beautiful web & mobile apps</h1>
+                    <p>You can design and create, and build the most wonderful
+                        place in the world. But it takes people to make the dream
+                        a reality. - Walt Disney
+                    </p>
+                </div>
+                <div>
+                    <input type="button" href="#" class="know_more_button" value="Know more">
+                    <div class="clearfix"></div>
+                </div>
             </div>
         </div>
     </section>
     <section id="query">
-        <div class="container layout-column">
-            <h2>Lets talk</h2>
-            <form>
-                <div>
-                    <input type="text" value="First Name">
-                    <input type="text" value="Last Name">
-                </div>
-                <div>
-                    <input type="text" value="Email Address">
-                    <!--<input type="text" value="App design">-->
-                    <select class="design">
+        <div class="container">
+            <div class="clearfix"></div>
+            <div class="block_form">
+                <h2>Lets talk</h2>
+                <form class="block_form_input">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="text" placeholder="Email Address">
+                    <select required>
+                        <option value="" disabled selected hidden>Select design...</option>
                         <option value="1">App design</option>
                     </select>
-                </div>
-                <div>
-                    <textarea rows="3">Type your query here</textarea>
-                </div>
-            </form>
-        </div>
-        <div class="container sender">
-            <button type=submit>Send</button>
+                    <textarea rows="5" placeholder="Type your query here"></textarea>
+                    <div class="sender">
+                        <button type="submit" value="Send">Send</button>
+                        <!--<input type="button" href="#" class="sender_button" value="Send">-->
+                        <div class="clearfix"></div>
+                    </div>
+                </form>
+            </div>
         </div>
     </section>
 </div>
 <footer>
     <div class="container">
-        <div>
-            <span class="copyright">&copy 2015 indipixel design</span>
-            <span class="email"><img src="img/IconMail.png" class="mail-logo">&nbsp;contact@youremail.com</span>
+        <div class="copyright">
+            <span>&copy 2015 indipixel design</span>
+        </div>
+        <div class="email">
+            <img src="img/IconMail.png" class="mail-logo">
+            <span class="contact_email">
+                &nbsp;&nbsp;contact@youremail.com
+            </span>
         </div>
     </div>
 </footer>

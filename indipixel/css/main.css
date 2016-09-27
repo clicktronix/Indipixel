@@ -1,26 +1,37 @@
 @charset "UTF-8";
 
-.bold, header .lower_header .logo {
+.bold,
+header .logo {
     font-family: MontserratBold, serif;
 }
 
-.gotham, header .lower_header .contact {
+.gotham,
+header .contact {
     font-family: GothamBookRegular, serif;
 }
 
-.light, #query h2, footer div {
+.light,
+#query h2,
+footer div,
+#query input,
+textarea,
+select {
     font-family: "MontserratLight", serif;
 }
 
-.regular, #home h1, #home .knowmore button {
+.regular,
+#home h1,
+#home .know_more_button {
     font-family: "MontserratRegular", serif;
 }
 
-.semibold, #query button {
+.semibold,
+#query button {
     font-family: "MontserratSemiBold", serif;
 }
 
-.ultral, #home p {
+.ultral,
+#home p {
     font-family: "MontserratUltraLight", serif;
 }
 
@@ -32,59 +43,55 @@ body {
     width: 100%;
     height: auto;
     margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
-.layout-column {
-    margin-left: 50%;
-}
-
-header .upper_header {
-    background-color: #04e4a2;
-    height: 20px;
-    z-index: 1;
-}
-
-header .lower_header {
+header {
+    border-top: 20px solid #04e4a2;
     width: 100%;
-    height: 80px;
     color: white;
     background-color: #e94643;
 }
 
-header .lower_header .logo {
-    float: left;
+header .logo {
     padding-top: 20px;
-    padding-left: 140px;
+    padding-bottom: 20px;
+    padding-left: 70px;
     font-size: 30px;
 }
 
-header .lower_header .contact {
+header .contact {
     font-size: 16px;
     padding-top: 30px;
-    padding-right: 15px;
+    padding-bottom: 30px;
+    padding-right: 20px;
     text-transform: uppercase;
-    float: right;
 }
 
-header .lower_header .contact a {
+header .contact a {
     color: #f9fbe7;
     border-bottom: 3px solid #fdd835;
     text-decoration: none;
 }
 
-header .lower_header .contact a:hover {
+header .contact a:hover {
     border-bottom: 3px solid #fd8535;
 }
 
 #home {
     background-color: #ef5350;
-    padding-right: 76px;
-    height: 582px;
+    height: auto;
     color: #ffffff;
 }
 
@@ -92,61 +99,66 @@ header .lower_header .contact a:hover {
 
 }
 
-#home .line-1 {
-    position: absolute;
-    background-color: #04e4a2;
-    width: 1500px;
-    height: 80px;
-    /*top: 301px;*/
-    /*left: -680px;*/
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    transform: rotate(30deg);
-}
+/*#home .line-1 {*/
+    /*position: absolute;*/
+    /*background-color: #04e4a2;*/
+    /*width: 1500px;*/
+    /*height: 80px;*/
+    /*!*top: 301px;*!*/
+    /*!*left: -680px;*!*/
+    /*-webkit-transform: rotate(30deg);*/
+    /*-moz-transform: rotate(30deg);*/
+    /*-ms-transform: rotate(30deg);*/
+    /*-o-transform: rotate(30deg);*/
+    /*transform: rotate(30deg);*/
+/*}*/
 
-#home .line-2 {
-    position: absolute;
-    background-color: #69f0ae;
-    width: 1500px;
-    height: 80px;
-    top: 381px;
-    left: -680px;
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    transform: rotate(30deg);
-}
+/*#home .line-2 {*/
+    /*position: absolute;*/
+    /*background-color: #69f0ae;*/
+    /*width: 1500px;*/
+    /*height: 80px;*/
+    /*top: 381px;*/
+    /*left: -680px;*/
+    /*-webkit-transform: rotate(30deg);*/
+    /*-moz-transform: rotate(30deg);*/
+    /*-ms-transform: rotate(30deg);*/
+    /*-o-transform: rotate(30deg);*/
+    /*transform: rotate(30deg);*/
+/*}*/
 
 #home img {
-    position: relative;
-    float: left;
+    position: absolute;
     max-width: 100%;
+    padding-top: 3.9%;
+    padding-left: 20px;
     height: auto;
-    margin-left: 110px;
-    margin-right: 130px;
-    margin-top: 63px;
     z-index: 1;
 }
 
-#home .tagline h1 {
+.block_description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 40px;
+}
+
+.tagline h1 {
     margin: 0;
-    padding-top: 190px;
+    padding-top: 35%;
     text-transform: uppercase;
     line-height: 1.2;
     letter-spacing: 2px;
     font-size: 30px;
 }
 
-#home .tagline p {
-    font-size: 18px;
+.tagline p {
+    font-size: 19px;
     line-height: 1.2;
     letter-spacing: 1px;
 }
 
-#home .knowmore {
+.know_more_button {
     float: right;
     color: #ffffff;
     margin-top: 60px;
@@ -156,85 +168,113 @@ header .lower_header .contact a:hover {
     border-radius: 7px;
     background: #04e4a2;
     border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 15%;
 }
 
 #query {
     background-color: #ffffff;
-    height: 400px;
+    height: auto;
 }
 
 #query h2 {
-    padding-left: 25px;
     padding-top: 30px;
     padding-bottom: 15px;
     margin: 0;
     color: #ff8a80;
 }
 
+.block_form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 40px;
+}
+
+.block_form_input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 #query input,
-#query select,
-#query textarea {
+select,
+textarea {
     display: inline-block;
-    font-family: "MontserratLight", serif;
     color: #636363;
     font-size: 20px;
-    padding: 3px 25px;
+    padding: 18px 25px;
     line-height: 1.2;
     border-radius: 5px;
-    margin-right: 1%;
-    margin-bottom: 1%;
     border: 2px solid #e3f2fd;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+select {
+    width: 40.7%;
+    height: auto;
+    box-sizing: content-box;
+}
+
+select:required:invalid {
+    color: #a9a9a9;
+}
+
+select option {
+    color: #636363;
 }
 
 #query input {
-    width: 30%;
-    height: 47px;
+    width: auto;
+    box-sizing: content-box;
+    height: auto;
 }
 
-#query select {
-    width: 37%;
-    height: 55px;
-}
-
-#query textarea {
-    width: 68.5%;
-    height: 100px;
+textarea {
+    width: 100%;
+    height: auto;
+    box-sizing: content-box;
     resize: none;
 }
 
-#query button {
+.sender {
+    padding-left: 78%;
+    margin-bottom: 5%;
+}
+
+button {
     float: right;
     text-transform: uppercase;
     font-size: 20px;
-    padding: 12px 37px;
+    padding: 14px 37px;
     border-radius: 8px;
     background: #ef5350;
     border: none;
     color: #ffffff;
+    outline: none;
+    cursor: pointer;
 }
 
 footer {
     background-color: #fefcf2;
-    height: 70px;
+    height: auto;
     max-height: 70px;
     font-size: 16px;
     color: #636363;
 }
 
 footer .copyright {
-    position: absolute;
-    padding-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer .email {
-    position: absolute;
-    margin-left: 40%;
-    padding-top: 25px;
-}
-
-footer .mail-logo {
-    position: absolute;
-    margin-left: -15%;
+    display: flex;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 @media screen and (min-width: 761px) and (max-width: 1100px) {
@@ -276,11 +316,8 @@ footer .mail-logo {
         margin: auto;
     }
 
-    header .upper_header {
-        height: 10px;
-    }
-
     header .lower_header {
+        border-top: 10px;
         height: 55px;
     }
 
@@ -326,9 +363,11 @@ footer .mail-logo {
         height: 500px;
         margin-left: 30px;
     }
+
     #query h2 {
         font-size: 18px;
     }
+
     #query input {
         min-width: 300px;
         display: block;

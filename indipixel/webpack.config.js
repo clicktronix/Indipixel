@@ -4,6 +4,7 @@
 'use strict';
 
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: "./frontend/main",
@@ -15,7 +16,8 @@ module.exports = {
     module: {
         loaders: [{
             test: /\.pug$/,
-            loader: "pug"
+            // loader: ExtractTextPlugin.extract('pug-html-loader')
+            loader: "pug-html-loader"
         }, {
             test: /\.styl$/,
             loader: ExtractTextPlugin.extract('css!stylus?resolve url')
@@ -26,6 +28,7 @@ module.exports = {
     },
 
     plugins: [
+        new HtmlWebpackPlugin(),
         new ExtractTextPlugin('[name].css')
     ]
 };

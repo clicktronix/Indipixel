@@ -1,44 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84d28af7-2965-405f-becc-ebd2a2fab3f6" name="Default" comment="Макет переделан с использованием технологии БЭМ">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/GothamBookRegular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/GothamBookRegular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/GothamBookRegular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/GothamBookRegular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/GothamBookRegular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratBold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratBold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratBold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratBold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratBold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratLight.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratLight.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratLight.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratLight.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratLight.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratRegular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratRegular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratRegular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratRegular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratRegular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratSemiBold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratSemiBold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratSemiBold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratSemiBold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratSemiBold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratUltraLight.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratUltraLight.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratUltraLight.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratUltraLight.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/fonts/MontserratUltraLight.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/img/IconMail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/img/Phone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="" />
+    <list default="true" id="84d28af7-2965-405f-becc-ebd2a2fab3f6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/indipixel/public/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indipixel/frontend/main.pug" afterPath="$PROJECT_DIR$/indipixel/frontend/main.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indipixel/index.html" afterPath="$PROJECT_DIR$/indipixel/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indipixel/webpack.config.js" afterPath="$PROJECT_DIR$/indipixel/webpack.config.js" />
     </list>
     <ignored path="clicktronix.github.io.git.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,8 +34,8 @@
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/indipixel/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="e#0#46#0" expanded="false" />
               </folding>
@@ -75,34 +43,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/indipixel/public/index.html">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/indipixel/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="306">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/indipixel/index.html">
+      <file leaf-file-name="main.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/indipixel/frontend/main.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-              <folding>
-                <element signature="e#2608#2614#0" expanded="true" />
-                <element signature="e#2614#2620#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fonts.styl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/indipixel/frontend/css/fonts.styl">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/indipixel/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/indipixel/frontend/css/main.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fonts.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/indipixel/frontend/css/fonts.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/indipixel/frontend/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,6 +114,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -128,13 +126,13 @@
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/indipixel/fonts.css" />
         <option value="$PROJECT_DIR$/indipixel/frontend/css/fonts.css" />
-        <option value="$PROJECT_DIR$/indipixel/frontend/css/main.styl" />
-        <option value="$PROJECT_DIR$/indipixel/frontend/main.js" />
         <option value="$PROJECT_DIR$/indipixel/frontend/css/fonts.styl" />
+        <option value="$PROJECT_DIR$/indipixel/public/index.html" />
+        <option value="$PROJECT_DIR$/indipixel/frontend/css/main.styl" />
+        <option value="$PROJECT_DIR$/indipixel/index.html" />
+        <option value="$PROJECT_DIR$/indipixel/frontend/main.js" />
         <option value="$PROJECT_DIR$/indipixel/webpack.config.js" />
         <option value="$PROJECT_DIR$/indipixel/frontend/main.pug" />
-        <option value="$PROJECT_DIR$/indipixel/public/index.html" />
-        <option value="$PROJECT_DIR$/indipixel/index.html" />
       </list>
     </option>
   </component>
@@ -211,13 +209,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clicktronix.github.io.git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clicktronix.github.io.git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indipixel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="E:\Programs\nodejs\node.exe" />
@@ -297,7 +313,7 @@
       <workItem from="1475216348553" duration="12000" />
       <workItem from="1475218412197" duration="1716000" />
       <workItem from="1475392282444" duration="10134000" />
-      <workItem from="1475404217566" duration="10367000" />
+      <workItem from="1475404217566" duration="15167000" />
     </task>
     <task id="LOCAL-00001" summary="Макет переделан с использование flex контейнеров">
       <created>1474966570611</created>
@@ -320,11 +336,25 @@
       <option name="project" value="LOCAL" />
       <updated>1475140692700</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавлен webpack config и изменено дерево проекта. Css и html переписаны на styl и pug">
+      <created>1475414867001</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1475414867001</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Добавлен webpack config и изменено дерево проекта. Css и html переписаны на styl и pug">
+      <created>1475415458463</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1475415458463</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79489000" />
+    <option name="totallyTimeSpent" value="84289000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,6 +372,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15779468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -353,7 +384,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -390,7 +420,8 @@
     <MESSAGE value="Макет переделан с использование flex контейнеров" />
     <MESSAGE value="Переделано отображение на экранах с шириной 320p 760p и 1000p" />
     <MESSAGE value="Макет переделан с использованием технологии БЭМ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Макет переделан с использованием технологии БЭМ" />
+    <MESSAGE value="Добавлен webpack config и изменено дерево проекта. Css и html переписаны на styl и pug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен webpack config и изменено дерево проекта. Css и html переписаны на styl и pug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -427,10 +458,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2608#2614#0" expanded="true" />
-            <element signature="e#2614#2620#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -438,10 +466,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
-          <folding>
-            <element signature="e#2608#2614#0" expanded="true" />
-            <element signature="e#2614#2620#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -457,10 +482,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
           <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
-          <folding>
-            <element signature="e#2608#2614#0" expanded="true" />
-            <element signature="e#2614#2620#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -476,10 +498,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-          <folding>
-            <element signature="e#2608#2614#0" expanded="true" />
-            <element signature="e#2614#2620#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -495,10 +514,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="e#2608#2614#0" expanded="true" />
-            <element signature="e#2614#2620#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -514,10 +530,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
-          <folding>
-            <element signature="e#2608#2614#0" expanded="true" />
-            <element signature="e#2614#2620#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -533,10 +546,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2608#2614#0" expanded="true" />
-            <element signature="e#2614#2620#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -590,34 +600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/indipixel/frontend/css/main.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/clicktronix.github.io-master/clicktronix.github.io-master/indipixel/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indipixel/frontend/main.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indipixel/frontend/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -630,58 +616,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/indipixel/frontend/css/fonts.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indipixel/frontend/css/main.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indipixel/frontend/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indipixel/public/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6380">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indipixel/public/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6380">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indipixel/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/indipixel/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="e#0#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/indipixel/public/main.css">
+    <entry file="file://$PROJECT_DIR$/indipixel/public/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="596">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/indipixel/public/main.js">
+    <entry file="file://$PROJECT_DIR$/indipixel/frontend/main.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
-          <folding>
-            <marker date="1475413034329" expanded="true" signature="4399:4405" ph=" " />
-            <marker date="1475413034329" expanded="true" signature="4405:4411" ph=" " />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/indipixel/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="119">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/indipixel/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding>
-            <element signature="e#2608#2614#0" expanded="true" />
-            <element signature="e#2614#2620#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indipixel/frontend/css/fonts.styl">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding />
         </state>
       </provider>

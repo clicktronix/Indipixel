@@ -1,0 +1,376 @@
+@charset "UTF-8"
+
+.bold
+header .g-container__logo
+  font-family MontserratBold serif
+
+.gotham
+header .g-container__contact
+  font-family GothamBookRegular serif
+
+.light
+.b-request h2
+footer div
+.b-request input
+textarea
+select
+  font-family MontserratLight serif
+
+.regular
+.b-home h1
+.b-home .b-description__button
+  font-family MontserratRegular serif
+
+.semibold
+.b-request button
+  font-family MontserratSemiBold serif
+
+.ultral
+.b-home p
+  font-family: MontserratUltraLight serif
+
+html
+  height auto
+
+
+body
+  width 100%
+  height auto
+  margin 0
+  box-sizing border-box
+
+.clearfix
+  clear both
+
+.g-container
+  max-width 1200px
+  margin 0 auto
+  display flex
+  justify-content space-between
+
+header
+  border-top 20px solid #04e4a2
+  width 100%
+  color white
+  background-color #e94643
+
+header .g-container__logo
+  padding-top 20px
+  padding-bottom: 20px
+  padding-left 70px
+  font-size 30px
+
+header .g-container__contact
+  font-size 16px
+  padding-top 30px
+  padding-bottom 30px
+  padding-right 20px
+  text-transform uppercase
+
+header .g-container__contact a
+  color #f9fbe7
+  border-bottom 3px solid #fdd835
+  text-decoration none
+
+header .g-container__contact a:hover
+  border-bottom 3px solid #fd8535
+
+.b-home
+  background-color #ef5350
+  height auto
+  color #ffffff
+
+.b-lines .b-lines__line-1
+  position absolute
+  background-color #04e4a2
+  width 100%
+  height 80px
+  top 28%
+  left -50%
+  -webkit-transform rotate(30deg)
+  -moz-transform rotate(30deg)
+  -ms-transform rotate(30deg)
+  -o-transform rotate(30deg)
+  transform rotate(30deg)
+
+.b-lines .b-lines__line-2
+  position absolute
+  background-color #69f0ae
+  width 100%
+  height 80px
+  top 38%
+  left -50%
+  -webkit-transform rotate(30deg)
+  -moz-transform rotate(30deg)
+  -ms-transform rotate(30deg)
+  -o-transform rotate(30deg)
+  transform rotate(30deg)
+
+.b-home img
+  position absolute
+  max-width 100%
+  padding-top 3.9%
+  padding-left 20px
+  height auto
+  z-index 1
+
+.b-description
+  display flex
+  flex-direction column
+  width 50%
+  padding-right 40px
+  line-height 1.2
+
+.b-description__tagline h1
+  margin 0
+  padding-top 35%
+  text-transform uppercase
+  letter-spacing 2px
+  font-size 30px
+
+.b-description__tagline p
+  font-size 19px
+  letter-spacing 1px
+
+.b-description__button
+  float right
+  color #ffffff
+  margin-top 60px
+  text-transform uppercase
+  font-size 18px
+  padding 15px 20px
+  border-radius 7px
+  background #04e4a2
+  border none
+  outline none
+  cursor pointer
+  margin-bottom 15%
+
+.b-request
+  background-color: #ffffff
+  height: auto
+
+.b-request h2
+  padding-top 30px
+  padding-bottom 15px
+  margin 0
+  color #ff8a80
+
+.b-form
+  display flex
+  flex-direction column
+  width 50%
+  padding-right 40px
+
+.b-form__input
+  display inline-block
+
+.b-form__input input
+.b-form__input select
+.b-form__input textarea
+  display inline
+  color #636363
+  font-size 20px
+  padding 18px 25px
+  line-height 1.2
+  border-radius 5px
+  border 2px solid #e3f2fd
+  margin-top 1%
+  margin-bottom 1%
+  margin-right 1%
+
+.b-form__input select
+  width 46.5%
+  height auto
+
+.b-form__input select:required:invalid
+  color #a9a9a9
+
+.b-form__input select option
+  color #636363
+
+.b-form__input input
+  width 37%
+  height auto
+
+.b-form__input textarea
+  width 85%
+  height auto
+  resize none
+
+.b-form__input button
+  float right
+  text-transform uppercase
+  font-size 20px
+  padding 14px 37px
+  border-radius 8px
+  background #ef5350
+  border none
+  color #ffffff
+  outline none
+  cursor pointer
+  margin-bottom 5%
+  margin-top 3%
+
+footer
+  background-color #fefcf2
+  height auto
+  max-height 70px
+  font-size 16px
+  color #636363
+
+footer .g-container__copyright
+  padding-top 20px
+  padding-bottom 20px
+
+footer .g-container__e-mail
+  display flex
+  width 50%
+  padding-top 20px
+  padding-bottom 20px
+  padding-right 40px
+
+@media screen and (min-width: 500px) and (max-width: 1000px)
+  .g-container
+    width auto
+    margin 0 auto
+
+  .b-home
+    padding-left 100px
+
+  .b-description
+    width 100%
+
+  .b-description__tagline h1
+    padding-top 15%
+
+  .b-description__button
+    margin-bottom 5%
+
+  .b-home .b-lines__line-1
+    display none
+
+  .b-home .b-lines__line-2
+    display none
+
+  .b-home img
+    display none
+
+  .b-request
+    padding-left 100px
+
+  .b-request .clearfix
+    display none
+
+  .b-form
+    width 100%
+    align-items center
+
+  .b-form__input input
+    width 80%
+    margin-right 1%
+    margin-bottom 1%
+
+  .b-form__input select
+    width 88%
+    margin-right 1%
+
+  .b-form__input textarea
+    max-width 80%
+
+  .b-form__input button
+    float left
+
+  footer
+    padding-left 100px
+
+@media screen and (min-width: 300px) and (max-width: 500px)
+  .g-container
+    width auto
+    margin 0 auto
+
+  .b-description
+    width 100%
+
+  header
+    border-top 10px solid #04e4a2
+
+  header .g-container__logo
+    padding 15px
+    font-size 23px
+
+  header .g-container__logo span
+    padding-left 15px
+
+  header .g-container__contact
+    font-size 11px
+
+  img
+    display none
+
+  .b-lines .b-lines__line-1
+    display none
+
+  .b-lines .b-lines__line-2
+    display none
+
+  .b-description__tagline h1
+    font-size 20px
+    margin 0
+    padding 10px
+
+  .b-description__tagline p
+    font-size 12px
+    padding-left 10px
+
+  .b-description__button
+    margin-top 15px
+    font-size 11px
+    padding 11px 15px
+    margin-bottom 5%
+
+  .b-form
+    padding-right 5px
+    padding-left 5px
+    width 100%
+    align-items flex-start
+
+  .b-form h2
+    font-size 18px
+
+  .b-form__input input
+    width 300px
+    display block
+    font-size 12px
+    height 30px
+    padding 4px
+
+  .b-form__input select
+    width 312px
+    height 35px
+    display block
+    font-size 12px
+    padding 4px
+
+  .b-form__input textarea
+    width 300px
+    margin-bottom 10px
+    display block
+    font-size 12px
+    padding 4px
+
+  .b-form__input button
+    font-size 12px
+    padding 12px 27px
+    float left
+
+  footer
+    max-height 50px
+    font-size 11px
+    color #636363
+
+  footer .g-container__copyright
+    padding-left 15px
+
+  footer .g-container__e-mail
+    width 40%

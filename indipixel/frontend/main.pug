@@ -10,7 +10,7 @@ section.b-home
             div.b-lines
                 div.b-lines__line-1
                 div.b-lines__line-2
-            img(src="frontend/img/Phone.png")
+            img(src=require('./img/Phone.png'))
         div.b-description
             div.b-description__tagline
                 h1
@@ -32,8 +32,6 @@ section.b-request
         div.b-form
             h2 Lets talk
             form.b-form__input
-                //- var values = ["First Name", "Last Name", "Email Address"];
-                //for name in values
                 input(
                 type='text'
                 placeholder = "First Name"
@@ -46,7 +44,7 @@ section.b-request
                 type='text'
                 placeholder = "Email Address"
                 )
-                select
+                select(required)
                     option(
                     value = ''
                     disabled selected hidden
@@ -54,14 +52,17 @@ section.b-request
                     option(
                     value='1'
                     ) App design
-                    textarea(
-                    rows = '5'
-                    placeholder = 'Type your query here'
-                    )
+                textarea(
+                rows = '5'
+                placeholder = 'Type your query here'
+                )
+                div.b-form__input_sender
+                    button(type='submit' value='Send') Send
+                    div.clearfix
 footer
     div.g-container
         div.g-container__copyright
             span &copy 2015 indipixel design
         div.g-container__e-mail
-            img(src = "/frontend/img/IconMail.png")
+            img(src=require('./img/IconMail.png'))
             span &nbsp;&nbsp;contact@youremail.com

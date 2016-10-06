@@ -5,7 +5,16 @@ html(lang='ru')
         title Indipixel
         meta(name='viewport' content='width=device-width' initial-scale='1.0')
     body
-        include html/header/header
-        include html/home/home
-        include html/request/request
-        include html/footer/footer
+    header
+        div.g-container
+            include html/header/header
+    section.b-home
+        div.g-container
+            include html/visual/visual
+            include html/description/description
+    section.b-request
+        div.g-container
+            include html/request/request
+    footer
+        div.g-container
+            include html/footer/footer

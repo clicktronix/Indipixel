@@ -21,10 +21,10 @@ module.exports = {
             loader: ExtractTextPlugin.extract('css!stylus?resolve url')
         }, {
             test: /\.(png|jpg)$/,
-            loader: 'file?name=./img/[name].[ext]'
+            loader: 'file?name=./src/img/[name].[ext]'
         }, {
             test: /\.(svg|ttf|eot|woff|woff2)$/,
-            loader: 'file?name=./fonts/[name].[ext]'
+            loader: 'file?name=./src/fonts/[name].[ext]'
         }]
     },
 

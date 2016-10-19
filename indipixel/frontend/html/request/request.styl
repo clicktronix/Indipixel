@@ -2,20 +2,37 @@
   display flex
   flex-direction column
   width 50%
-  padding-right 40px
+  padding-right 4%
+
+@media screen and (max-width: 1000px)
+  .b-form
+    width 100%
+    align-items center
+
+@media screen and (max-width: 500px)
+  .b-form
+    padding-right 1%
+    padding-left 1%
+    width 100%
+    align-items flex-start
 
 .b-form h2
-  padding-top 30px
-  padding-bottom 15px
-  margin 0
+  margin-top 3%
+  margin-bottom 2%
   color #ff8a80
+
+@media screen and (max-width: 500px)
+  .b-form h2
+    font-size 18px
 
 .b-form__input
   display inline-block
 
-.b-form__input input
-.b-form__input select
-.b-form__input textarea
+.b-form__input_first-name
+.b-form__input_last-name
+.b-form__input_email-address
+.b-form__input_selector
+.b-form__input_query-area
   display inline
   color #636363
   font-size 20px
@@ -27,26 +44,73 @@
   margin-bottom 1%
   margin-right 1%
 
-.b-form__input select
+.b-form__input_selector
   width 46.5%
   height auto
 
-.b-form__input select:required:invalid
+@media screen and (max-width: 1000px)
+  .b-form__input_selector
+    width 88%
+    margin-right 1%
+
+@media screen and (max-width: 500px)
+  .b-form__input_selector
+    width 302px
+    height 37px
+    display block
+    font-size 12px
+    padding 4px
+
+.b-form__input_selector:required:invalid
   color #a9a9a9
 
-.b-form__input select option
+.b-form__input_selector option
   color #636363
+  background #ffffff
 
-.b-form__input input
+.b-form__input_first-name
+.b-form__input_last-name
+.b-form__input_email-address
   width 37%
   height auto
 
-.b-form__input textarea
+@media screen and (max-width: 1000px)
+  .b-form__input_first-name
+  .b-form__input_last-name
+  .b-form__input_email-address
+    width 80%
+    margin-right 1%
+    margin-bottom 1%
+
+@media screen and (max-width: 500px)
+  .b-form__input_first-name
+  .b-form__input_last-name
+  .b-form__input_email-address
+    width 290px
+    display block
+    font-size 12px
+    height 30px
+    padding 4px
+
+.b-form__input_query-area
   width 85%
   height auto
   resize none
 
-.b-form__input button
+@media screen and (max-width: 1000px)
+  .b-form__input_query-area
+    max-width 80%
+
+@media screen and (max-width: 500px)
+  .b-form__input_query-area
+    max-width 100%
+    width 290px
+    margin-bottom 10px
+    display block
+    font-size 12px
+    padding 4px
+
+.b-form__input_sender-button
   float right
   text-transform uppercase
   font-size 20px
@@ -60,58 +124,12 @@
   margin-bottom 5%
   margin-top 3%
 
-@media screen and (min-width: 500px) and (max-width: 1000px)
-  .b-form
-    width 100%
-    align-items center
-
-  .b-form__input input
-    width 80%
-    margin-right 1%
-    margin-bottom 1%
-
-  .b-form__input select
-    width 88%
-    margin-right 1%
-
-  .b-form__input textarea
-    max-width 80%
-
-  .b-form__input button
+@media screen and (max-width: 1000px)
+  .b-form__input_sender-button
     float left
 
-@media screen and (min-width: 300px) and (max-width: 500px)
-  .b-form
-    padding-right 5px
-    padding-left 5px
-    width 100%
-    align-items flex-start
-
-  .b-form h2
-    font-size 18px
-
-  .b-form__input input
-    width 300px
-    display block
-    font-size 12px
-    height 30px
-    padding 4px
-
-  .b-form__input select
-    width 312px
-    height 35px
-    display block
-    font-size 12px
-    padding 4px
-
-  .b-form__input textarea
-    width 300px
-    margin-bottom 10px
-    display block
-    font-size 12px
-    padding 4px
-
-  .b-form__input button
+@media screen and (max-width: 500px)
+  .b-form__input_sender-button
     font-size 12px
     padding 12px 27px
     float left

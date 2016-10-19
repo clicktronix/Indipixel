@@ -4,17 +4,23 @@ div.b-form
     form.b-form__input
         input(
         type='text'
+        class='b-form__input_first-name'
+        name='fname'
         placeholder = "First Name"
         )
         input(
         type='text'
+        class='b-form__input_last-name'
+        name='lname'
         placeholder = "Last Name"
         )
         input(
         type='text'
+        class='b-form__input_email-address'
+        name='mail'
         placeholder = "Email Address"
         )
-        select(required)
+        select(required class='b-form__input_selector')
             option(
             value = ''
             disabled selected hidden
@@ -24,8 +30,8 @@ div.b-form
             ) App design
         textarea(
         rows = '5'
+        class='b-form__input_query-area'
         placeholder = 'Type your query here'
         )
-        div.b-form__input_sender
-            button(type='submit' value='Send') Send
-            div.clearfix
+        button(type='submit' value='Send' class='b-form__input_sender-button') Send
+        div.clearfix

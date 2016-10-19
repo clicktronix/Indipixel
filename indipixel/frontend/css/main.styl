@@ -30,65 +30,77 @@ select
   font-family: MontserratUltraLight
 
 html
-  height auto
-
 body
-  width 100%
-  height auto
+  height 100%
   margin 0
-  box-sizing border-box
+  display flex
+  flex-direction column
+
+.wrapper
+  flex 1 0 auto
 
 .clearfix
   clear both
+
+@media screen and (max-width: 1000px)
+  .b-request .clearfix
+    display none
 
 .g-container
   max-width 1200px
   margin 0 auto
   display flex
   justify-content space-between
+
+@media screen and (max-width: 1000px)
+  .g-container
+    width auto
+    margin 0 auto
+
+@media screen and (max-width: 500px)
+  .g-container
+    width auto
+    margin 0 auto
+
 .b-home
   background-color #ef5350
   height auto
   color #ffffff
 
+@media screen and (max-width: 1000px)
+  .b-home
+    padding-left 10%
+
+@media screen and (max-width: 500px)
+  .b-home
+    padding-left 3%
+
 .b-request
   background-color: #ffffff
-  height: auto
+  height auto
+
+@media screen and (max-width: 1000px)
+  .b-request
+    padding-left 10%
+
+@media screen and (max-width: 500px)
+  .b-request
+    padding-left 2%
 
 footer
   background-color #fefcf2
   height auto
-  max-height 70px
   font-size 16px
   color #636363
+  flex 0 0 auto
 
-@media screen and (min-width: 500px) and (max-width: 1000px)
-  .g-container
-    width auto
-    margin 0 auto
-
-  .b-home
-    padding-left 100px
-
-  .b-request
-    padding-left 100px
-
-  .b-request .clearfix
-    display none
-
+@media screen and (max-width: 1000px)
   footer
-    padding-left 100px
+    padding-left 10%
 
-@media screen and (min-width: 300px) and (max-width: 500px)
-  .g-container
-    width auto
-    margin 0 auto
-
-  header
-    border-top 10px solid #04e4a2
-
+@media screen and (max-width: 500px)
   footer
-    max-height 50px
+    padding-left 1%
     font-size 11px
     color #636363
 

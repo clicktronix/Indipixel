@@ -1,21 +1,29 @@
 .g-container__copyright
-  padding-top 20px
-  padding-bottom 20px
+  padding-top 2%
+  padding-bottom 2%
+  padding-left 5%
+
+@media screen and (max-width: 500px)
+  .g-container__copyright
+    padding-left 1%
 
 .g-container__e-mail
   display flex
   width 50%
-  padding-top 20px
-  padding-bottom 20px
-  padding-right 40px
+  padding-top 2%
+  padding-bottom 2%
+  padding-right 3%
 
-@media screen and (min-width: 300px) and (max-width: 500px)
-  .g-container__copyright
-    padding-left 15px
+.g-container__e-mail a
+  color #636363
+  text-decoration none
 
+@media screen and (max-width: 500px)
   .g-container__e-mail
-    width 40%
+    width 55%
+    padding-right 0
 
+@media screen and (max-width: 500px)
   .g-container__e-mail_logo
     width 20px
     height 15px

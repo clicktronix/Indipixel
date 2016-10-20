@@ -1,11 +1,11 @@
 @charset "UTF-8"
 
 .bold
-.g-container__logo
+.header__logo
   font-family MontserratBold
 
 .gotham
-.g-container__contact
+.header__contact
   font-family GothamBookRegular
 
 .light
@@ -17,7 +17,7 @@ select
   font-family MontserratLight
 
 .regular
-.b-home h1
+.description h1
 .b-description__button
   font-family MontserratRegular
 
@@ -26,7 +26,7 @@ select
   font-family MontserratSemiBold
 
 .ultral
-.b-home p
+.description p
   font-family: MontserratUltraLight
 
 html
@@ -62,17 +62,18 @@ body
     width auto
     margin 0 auto
 
-.b-home
+.description
   background-color #ef5350
   height auto
   color #ffffff
+  z-index -1
 
 @media screen and (max-width: 1000px)
-  .b-home
+  .description
     padding-left 10%
 
 @media screen and (max-width: 500px)
-  .b-home
+  .description
     padding-left 3%
 
 .b-request

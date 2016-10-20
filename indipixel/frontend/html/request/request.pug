@@ -1,26 +1,26 @@
 div.clearfix
-div.b-form
-    h2 Lets talk
-    form.b-form__input
+div.form
+    h2.form__head Lets talk
+    form.request-form
         input(
         type='text'
-        class='b-form__input_first-name'
+        class='request-form__input request-form_text-input-area'
         name='fname'
         placeholder = "First Name"
         )
         input(
         type='text'
-        class='b-form__input_last-name'
+        class='request-form__input request-form_text-input-area'
         name='lname'
         placeholder = "Last Name"
         )
         input(
         type='text'
-        class='b-form__input_email-address'
+        class='request-form__input request-form_text-input-area'
         name='mail'
         placeholder = "Email Address"
         )
-        select(required class='b-form__input_selector')
+        select(required class='request-form__selector request-form_text-input-area')
             option(
             value = ''
             disabled selected hidden
@@ -30,8 +30,10 @@ div.b-form
             ) App design
         textarea(
         rows = '5'
-        class='b-form__input_query-area'
+        class='request-form__query-area request-form_text-input-area'
         placeholder = 'Type your query here'
         )
-        button(type='submit' value='Send' class='b-form__input_sender-button') Send
+        button(type='submit'
+        value='Send'
+        class='request-form__sender-button request-form_text-input-area') Send
         div.clearfix

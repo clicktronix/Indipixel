@@ -1,0 +1,44 @@
+div.clearfix
+div.form
+    h2.form__head Lets talk
+    form.request-form
+        input(
+        type='text'
+        class='request-form__input request-form_text-input-area'
+        name='fname'
+        placeholder = 'First Name'
+        tabindex='1'
+        )
+        input(
+        type='text'
+        class='request-form__input request-form_text-input-area'
+        name='lname'
+        placeholder = 'Last Name'
+        tabindex='2'
+        )
+        input(
+        type='text'
+        class='request-form__input request-form_text-input-area'
+        name='mail'
+        placeholder = 'Email Address'
+        tabindex='3'
+        )
+        select(required class='request-form__selector request-form_text-input-area' tabindex='4')
+            option(
+            value = ''
+            disabled selected hidden
+            ) Select design
+            option(
+            value='1'
+            ) App design
+        textarea(
+        rows = '5'
+        class='request-form__query-area request-form_text-input-area'
+        placeholder = 'Type your query here'
+        tabindex='5'
+        )
+        button(type='submit'
+        value='Send'
+        class='request-form__sender-button request-form_text-input-area'
+        tabindex='6') Send
+        div.clearfix

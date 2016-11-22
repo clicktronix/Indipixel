@@ -1,0 +1,117 @@
+@charset "UTF-8"
+
+.bold
+.header__logo
+  font-family MontserratBold, "Eras Bold ITC", serif or sans
+
+.gotham
+.header__contact
+  font-family GothamBookRegular, "Eras Medium ITC", serif or sans
+
+.light
+.form__head
+.request-form_text-input-area
+.footer__copyright
+.footer__e-mail
+  font-family MontserratLight, "Eras Light ITC", serif or sans
+
+.regular
+.description__tagline
+.description__button
+  font-family MontserratRegular, "Eras Medium ITC", serif or sans
+
+.semibold
+.request-form__sender-button
+  font-family MontserratSemiBold, "Eras Bold ITC", serif or sans
+
+.ultral
+.description__quote
+  font-family: MontserratUltraLight, "Eras Light ITC", serif or sans
+
+html
+body
+  height 100%
+  margin 0
+  display flex
+  flex-direction column
+
+.wrapper
+  flex 1 0 auto
+
+.clearfix
+  clear both
+
+@media screen and (max-width: 1000px)
+  .request .clearfix
+    display none
+
+.g-container
+  max-width 1200px
+  margin 0 auto
+  display flex
+  justify-content space-between
+
+@media screen and (max-width: 1000px)
+  .g-container
+    width auto
+    margin 0 auto
+
+@media screen and (max-width: 500px)
+  .g-container
+    width auto
+    margin 0 auto
+
+.specification
+  background-color #ef5350
+  height auto
+  color #ffffff
+  z-index -1
+
+@media screen and (max-width: 1000px)
+  .specification
+    padding-left 10%
+
+@media screen and (max-width: 500px)
+  .specification
+    padding-left 3%
+
+.request
+  background-color: #ffffff
+  height auto
+
+@media screen and (max-width: 1000px)
+  .request
+    padding-left 10%
+
+@media screen and (max-width: 500px)
+  .request
+    padding-left 2%
+
+.footer
+  background-color #fefcf2
+  height auto
+  font-size 16px
+  color #636363
+  flex 0 0 auto
+
+@media screen and (max-width: 1000px)
+  .footer
+    padding-left 10%
+
+@media screen and (max-width: 500px)
+  .footer
+    padding-left 1%
+    font-size 11px
+    color #636363
+
+@media screen and (max-width: 1000px)
+  .lines__line-2
+    display none
+
+@import '../html/header/header.styl';
+@import '../html/specification/visual/visual.styl';
+@import '../html/specification/description/description.styl';
+@import '../html/request/request.styl';
+@import '../html/footer/footer.styl';
+@import '../html/lines/lines.styl';
+@import './fonts.styl';

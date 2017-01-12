@@ -26,10 +26,28 @@
     font-size 18px
 
 .request-form
-  display inline-block
+  display flex
+  flex-direction column
+
+@media screen and (max-width: 500px)
+  .request-form
+    flex-direction column
+
+.request-form__first-column
+  display flex
+
+@media screen and (max-width: 500px)
+  .request-form__first-column
+    display block
+
+.request-form__second-column
+  display flex
+
+@media screen and (max-width: 500px)
+  .request-form__second-column
+    display block
 
 .request-form_text-input-area
-  display inline
   color #636363
   font-size 20px
   padding 18px 25px
@@ -40,6 +58,11 @@
   margin-bottom 1%
   margin-right 1%
 
+@media screen and (max-width: 500px)
+  .request-form_text-input-area
+    font-size 12px
+    padding 4px
+
 .request-form__selector
   width 46.5%
   height auto
@@ -47,7 +70,7 @@
 
 @media screen and (max-width: 1000px)
   .request-form__selector
-    width 88%
+    width 90%
     margin-right 1%
 
 @media screen and (max-width: 500px)
@@ -69,15 +92,14 @@
   height auto
 
 @media screen and (max-width: 1000px)
-  request-form__input
+  .request-form__input
     width 80%
     margin-right 1%
     margin-bottom 1%
 
 @media screen and (max-width: 500px)
-  request-form__input
+  .request-form__input
     width 290px
-    display block
     font-size 12px
     height 30px
     padding 4px
@@ -89,7 +111,7 @@
 
 @media screen and (max-width: 1000px)
   .request-form__query-area
-    max-width 80%
+    width 90%
 
 @media screen and (max-width: 500px)
   .request-form__query-area
@@ -101,10 +123,11 @@
     padding 4px
 
 .request-form__sender-button
+  max-width 25%
   float right
   text-transform uppercase
   font-size 20px
-  padding 14px 37px
+  padding 14px auto
   border-radius 8px
   background #ef5350
   border none

@@ -8,31 +8,34 @@
   .header
     border-top 10px solid #04e4a2
 
-.header__logo
-  margin-top 2%
-  margin-bottom 2%
-  margin-left 7%
-  font-size 30px
-  cursor default
+.header
+  &__logo
+    margin-top 20px
+    margin-bottom 20px
+    margin-left 70px
+    font-size 30px
+    cursor default
 
-@media screen and (max-width: 500px)
-  .header__logo
-    font-size 20px
-    padding-left 5%
+  @media screen and (max-width: 500px)
+    &__logo
+      font-size 20px
+      padding-left 5%
 
-.header__contact
-  font-size 16px
-  margin-top 3%
-  margin-bottom 3%
-  margin-right 2%
-  text-transform uppercase
-  color #fff
-  border-bottom 2px solid #fdd835
-  text-decoration none
+  &__contact
+    font-size 16px
+    margin-top 30px
+    margin-bottom 30px
+    margin-right 20px
+    text-transform uppercase
+    color #fff
+    border-bottom 2px solid #fdd835
+    text-decoration none
 
-@media screen and (max-width: 500px)
-  .header__contact
-    font-size 10px
+  &__contact:hover
+    border-bottom 2px solid #fda020
 
-.header__contact:hover
-  border-bottom 2px solid #fda020
+  @media screen and (max-width: 500px)
+      &__contact
+        font-size 10px
+
+

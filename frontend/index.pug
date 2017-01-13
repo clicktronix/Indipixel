@@ -6,18 +6,17 @@ html(lang='ru')
         meta(name='viewport' content='width=device-width' initial-scale='1.0')
     body
     include html/lines/lines
-    div.wrapper
-        div.header
+    main.wrapper
+        header.header
             div.g-container
                 include html/header/header
-        div.specification
-
+        section.specification
             div.g-container
                 include html/specification/visual/visual
                 include html/specification/description/description
-        div.request
+        section.request
             div.g-container
                 include html/request/request
-    div.footer
+    footer.footer
         div.g-container
             include html/footer/footer

@@ -2,60 +2,58 @@
   display flex
   flex-direction column
   width 50%
-  margin-right 4%
   line-height 1.2
-  margin-top 15%
+  margin-right 40px
+  margin-top 150px
 
 @media screen and (max-width: 1000px)
   .description
+    margin-top 60px
     text-align center
     width 100%
 
-.description__tagline
-  margin 0
-  text-transform uppercase
-  letter-spacing 2px
-  font-size 30px
-
-@media screen and (max-width: 1000px)
-  .description__tagline
-    margin-top 15%
-
-@media screen and (max-width: 500px)
-  .description__tagline
-    font-size 20px
+.description
+  &__tagline
     margin 0
-    padding 1%
+    text-transform uppercase
+    letter-spacing 2px
+    font-size 30px
 
-.description__quote
-  font-size 19px
-  letter-spacing 1px
+  @media screen and (max-width: 500px)
+    &__tagline
+      font-size 20px
+      margin 0
+      padding 1%
 
-@media screen and (max-width: 500px)
-  .description__quote
-    font-size 12px
-    padding-left 1%
+  &__quote
+    font-size 19px
+    letter-spacing 1px
 
-.description__button
-  float right
-  color #ffffff
-  margin-top 6%
-  text-transform uppercase
-  font-size 18px
-  padding 15px 20px
-  border-radius 7px
-  background #04e4a2
-  border none
-  outline none
-  cursor pointer
-  margin-bottom 15%
+  @media screen and (max-width: 500px)
+    &__quote
+      font-size 12px
+      padding-left 1%
 
-@media screen and (max-width: 1000px)
-  .description__button
-    margin-bottom 5%
+  &__button
+    float right
+    color #ffffff
+    margin-top 60px
+    margin-bottom 150px
+    text-transform uppercase
+    font-size 18px
+    padding 15px 20px
+    border-radius 7px
+    background #04e4a2
+    border none
+    outline none
+    cursor pointer
 
-@media screen and (max-width: 500px)
-  .description__button
-    margin-top 1.5%
-    font-size 11px
-    padding 11px 15px
+  @media screen and (max-width: 1000px)
+    &__button
+      margin-bottom 50px
+
+  @media screen and (max-width: 500px)
+    &__button
+      margin-top 15px
+      font-size 11px
+      padding 11px 15px

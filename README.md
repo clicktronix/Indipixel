@@ -3,4 +3,6 @@
 ### To start build application enter
     npm i
 ### After packages installation run
-    webpack
+    npm run build
+### of
+    npm run dev

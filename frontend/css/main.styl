@@ -10,9 +10,9 @@
 
 .light
 .form__head
-.request-form_text-input-area
 .footer__copyright
 .footer__e-mail
+.request-form__text-input-area
   font-family MontserratLight, "Eras Light ITC", serif or sans
 
 .regular
@@ -30,7 +30,7 @@
 
 html
 body
-  height auto
+  height 100%
   margin 0
   display flex
   flex-direction column
@@ -40,9 +40,7 @@ body
 
 .clearfix
   clear both
-
-@media screen and (max-width: 1000px)
-  .request .clearfix
+  @media screen and (max-width: 1000px)
     display none
 
 .g-container
@@ -50,14 +48,10 @@ body
   margin 0 auto
   display flex
   justify-content space-between
-
-@media screen and (max-width: 1000px)
-  .g-container
+  @media screen and (max-width: 1000px)
     width auto
     margin 0 auto
-
-@media screen and (max-width: 500px)
-  .g-container
+  @media screen and (max-width: 500px)
     width auto
     margin 0 auto
 
@@ -66,35 +60,24 @@ body
   height auto
   color #ffffff
   z-index -1
-
-@media screen and (max-width: 1000px)
-  .specification
+  @media screen and (max-width: 1000px)
     padding-left 10%
-
-@media screen and (max-width: 500px)
-  .specification
+  @media screen and (max-width: 500px)
     padding-left 3%
 
 .request
   background-color: #ffffff
   height auto
-
-@media screen and (max-width: 1000px)
-  .request
+  @media screen and (max-width: 1000px)
     padding-left 10%
-
-@media screen and (max-width: 500px)
-  .request
+  @media screen and (max-width: 500px)
     padding-left 2%
 
-@media screen and (max-width: 1000px)
-  .lines__line-2
-    display none
-
 @import '../html/header/header.styl';
-@import '../html/specification/visual/visual.styl';
-@import '../html/specification/description/description.styl';
-@import '../html/request/request.styl';
+@import '../html/form/form.styl';
+@import '../html/visual/visual.styl';
+@import '../html/description/description.styl';
+@import '../html/request-form/request-form.styl';
 @import '../html/footer/footer.styl';
 @import '../html/lines/lines.styl';
 @import './fonts.styl';

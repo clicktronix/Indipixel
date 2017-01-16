@@ -3,6 +3,8 @@ html(lang='ru')
     head
         meta(charset='UTF-8')
         title Indipixel
+        meta(name='keywords' content='FSD team, test task, test model')
+        meta(name='description' content='Test task for FSD team')
         meta(name='viewport' content='width=device-width' initial-scale='1.0')
     body
     include html/lines/lines
@@ -12,11 +14,11 @@ html(lang='ru')
                 include html/header/header
         section.specification
             div.g-container
-                include html/specification/visual/visual
-                include html/specification/description/description
+                include html/visual/visual
+                include html/description/description
         section.request
             div.g-container
-                include html/request/request
+                include html/form/form
     footer.footer
         div.g-container
             include html/footer/footer

@@ -7,18 +7,9 @@ html(lang='ru')
         meta(name='description' content='Test task for FSD team')
         meta(name='viewport' content='width=device-width' initial-scale='1.0')
     body
-    include html/lines/lines
     main.wrapper
-        header.header
-            div.g-container
-                include html/header/header
-        section.specification
-            div.g-container
-                include html/visual/visual
-                include html/description/description
-        section.request
-            div.g-container
-                include html/form/form
-    footer.footer
-        div.g-container
-            include html/footer/footer
+        include html/lines/lines
+        include html/header/header
+        include html/specification/specification
+        include html/request/request
+    include html/footer/footer

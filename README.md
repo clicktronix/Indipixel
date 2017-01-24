@@ -4,5 +4,5 @@
     npm i
 ### After packages installation run
     npm run build
-### of
+### or
     npm run dev

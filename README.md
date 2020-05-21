@@ -1,5 +1,5 @@
 # Indipixel
-##Indipixel test page
+## Fullstack devellopment test task
 ### To start build application enter
     npm i
 ### After packages installation run
